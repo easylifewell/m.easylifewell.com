@@ -14,7 +14,7 @@ const data = [
     id: 0,
     img: 'https://zos.alipayobjects.com/rmsportal/dKbkpPXKfvZzWCM.png',
     title: '推荐一',
-    des: '牛奶＋胡萝卜＋豆腐＋酸奶',
+    des: '牛肉（热）＋土豆（平）＋胡萝卜（平）＋木瓜（平）',
     details: [
       {
         mateName: '圆白菜',
@@ -117,7 +117,7 @@ const data = [
     id: 1,
     img: 'https://zos.alipayobjects.com/rmsportal/XmwCzSeJiqpkuMB.png',
     title: '推荐二',
-    des: '豆浆＋莴笋＋瓠瓜',
+    des: '牛肉（热）＋毛豆（平）＋猕猴桃（寒）',
     details: [
       {
         mateName: '圆白菜',
@@ -220,7 +220,7 @@ const data = [
     id: 2,
     img: 'https://zos.alipayobjects.com/rmsportal/hfVtzEhPzTUewPm.png',
     title: '推荐三',
-    des: '圆白菜＋土豆＋牛乳＋锅盔',
+    des: '西红柿（凉）＋鸡蛋（平）＋橙子（凉）',
     details: [
       {
         mateName: '圆白菜',

@@ -106,7 +106,7 @@ const People = React.createClass({
 					<td>{item.age}</td>
 					<td>{item.sex}</td>
 					<td>{item.userNumber}</td>
-					<td><IconButton onClick={me.deleteUser.bind(me, index)}><NavigationClose /></IconButton></td>					
+					<td><IconButton iconStyle={{color: 'rgb(0, 188, 212)'}} onClick={me.deleteUser.bind(me, index)}><NavigationClose /></IconButton></td>					
 				</tr>;
 		});
 
@@ -114,7 +114,7 @@ const People = React.createClass({
 			<div style={{padding: 10}}>
 				<table style={{textAlign: 'center', width: '100%', color: '#666', fontWeight: 'normal'}}>
 					<thead>
-						<tr>
+						<tr style={{color: 'rgb(0, 188, 212)'}}>
 							<th>年龄段</th>
 							<th>性别</th>
 							<th>数量</th>
@@ -146,7 +146,7 @@ const People = React.createClass({
 		        </div>
 	        </div>
 			<div style={{ margin: '25px 0', display: this.state.addBtnDisplay ? 'block' : 'none' }}>
-				<RaisedButton label="添加" fullWidth={true} onClick={this.displayAddForm} />
+				<RaisedButton label="添加用餐成员" fullWidth={true} onClick={this.displayAddForm} />
 	        </div>
 		</div>;
 	},
@@ -159,9 +159,9 @@ const People = React.createClass({
 	},
 	getLinks() {
 		return <div>
-			<FlatButton label="基于中医养生钟" primary={true} />
-    		<FlatButton label="基于中华营养协会DIRs摄入推荐" primary={true} />
-    		<FlatButton label="基于食物指教相生相克" primary={true} />
+			<FlatButton label="基于中医养生钟" primary={true} href="#/yangshengclock" />
+    		<FlatButton label="基于中华营养协会DIRs摄入推荐" primary={true} href="#/yingyang" />
+    		<FlatButton label="基于食物指教相生相克" primary={true} href="#/xsxk" />
 		</div>;
 	},
 	submitData() {

@@ -4,6 +4,9 @@ import {render} from 'react-dom';
 import People from './components/People';
 import Recipe from './components/Recipe';
 import RecDetails from './components/RecDetails';
+import Xsxk from './components/Xsxk';
+import Yangshengclock from './components/Yangshengclock';
+import Yingyang from './components/Yingyang';
 import injectTapEventPlugin from 'react-tap-event-plugin';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import useBasename from 'history/lib/useBasename'
@@ -20,6 +23,9 @@ const Routes = ({ history }) =>
     <Route path="/" component={People} />
     <Route path="/recipe" component={Recipe} />
     <Route path="/recDetails" component={RecDetails} />
+    <Route path="yangshengclock" component={Yangshengclock} />
+    <Route path="yingyang" component={Yingyang} />
+    <Route path="xsxk" component={Xsxk} />
   </Router>;
 
 Routes.propTypes = {
